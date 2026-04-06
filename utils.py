@@ -11,7 +11,7 @@ def derive_key(password, salt):
     return PBKDF2(password, salt, dkLen=KEY_SIZE, count=ITERATIONS)
 
 def pad(data):
-    padding_length = AES.block_size - len(data) % AES.block_size
+    padding_length = AES.block_size - len(data) % AES.block_size 
     return data + bytes([padding_length]) * padding_length
 
 def unpad(data):
