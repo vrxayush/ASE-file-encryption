@@ -25,7 +25,7 @@ A secure file encryption and decryption tool built using Python that uses Advanc
 
 ## 🎥 Demo Video
 
-Demo video of the project is uploaded in YouTube
+Demo video of the project is uploaded in [YouTube](https://youtu.be/tM9Ht8uBsZU?si=1-es9uUOPx1VXSZz)
 
 ---
 
